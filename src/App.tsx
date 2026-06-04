@@ -78,7 +78,7 @@ function App() {
               title="Second Title"
               description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, consequuntur doloremque enim expedita molestias mollitia natus nesciunt quae quasi quia."
           />
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, itaque?</p>
+          <p className="text-red-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, itaque?</p>
       </Layout>
 
 
