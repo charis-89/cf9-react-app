@@ -11,7 +11,7 @@ const Layout = ({children, addClasses}:LayoutProps) => {
         <>
             <div className={addClasses}>
               <Header/>
-              <main className="container ma-auto min-h-[95vh]">{children}</main>
+              <main className="container ma-auto min-h-[95vh] pt-36">{children}</main>
               <Footer/>
             </div>
         </>
