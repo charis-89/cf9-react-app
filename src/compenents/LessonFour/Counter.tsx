@@ -4,7 +4,6 @@ import CounterButton from "./CounterButton.tsx";
 const Counter = () => {
     const [counter, setCounter] = useState(0);
 
-
     const increaseCount = () => {
         setCounter(counter + 1);
     }

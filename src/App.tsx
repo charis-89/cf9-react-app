@@ -2,9 +2,9 @@
 //import ClassComponent from "./compenents/LessonTwo/ClassComponent.tsx";
 //import ArrowFunctionalComponent from "./compenents/LessonTwo/ArrowFunctionalComponent.tsx";
 //import ArrowFunctionalComponentWithProps from "./compenents/LessonThree/ArrowFunctionalComponentWithProps.tsx";
-import Layout from "./compenents/Layout.tsx";
-import Counter from "./compenents/LessonFour/Counter.tsx";
-import ClassCounter from "./compenents/LessonFour/ClassCounter.tsx";
+// import Layout from "./compenents/Layout.tsx";
+// import Counter from "./compenents/LessonFour/Counter.tsx";
+// import ClassCounter from "./compenents/LessonFour/ClassCounter.tsx";
 
 // type PropsA = {
 //   title: string,
@@ -43,6 +43,9 @@ import ClassCounter from "./compenents/LessonFour/ClassCounter.tsx";
 //   image: string,
 // }
 // // PropsThree = {title, description, price, sort, image}
+
+import Layout from "./compenents/Layout.tsx";
+import CounterAdvance from "./compenents/LessonFour/CounterAdvance.tsx";
 
 function App() {
 
@@ -86,8 +89,9 @@ function App() {
 
         {/* LESSON FOUR */}
         <Layout addClasses="bg-gray-50">
-            <Counter/>
-            <ClassCounter/>
+            {/*<Counter/>*/}
+            {/*<ClassCounter/>*/}
+        <CounterAdvance />
         </Layout>
 
 
